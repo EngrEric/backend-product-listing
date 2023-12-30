@@ -14,7 +14,6 @@ export class ProductsService {
   async create(createProductInput: CreateProductInput) {
     try {
       const result = await this.productRepository.save(createProductInput);
-      console.log(result);
       return result;
     } catch (error) {
       return error;

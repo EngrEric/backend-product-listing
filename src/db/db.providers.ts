@@ -1,9 +1,4 @@
 import { DataSource } from 'typeorm';
-console.log(
-  process.env.DB_USERNAME,
-  process.env.DB_PASSWORD,
-  process.env.DB_DATABASE,
-);
 
 export const databaseProviders = [
   {
